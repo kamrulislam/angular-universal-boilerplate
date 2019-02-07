@@ -19,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactUsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'universal-base-app'}),
     AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
